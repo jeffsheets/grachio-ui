@@ -6,10 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service s3-deploy",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "vue": "^2.5.17",
+    "vue-cli-plugin-s3-deploy": "^2.1.1",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
