@@ -1,7 +1,6 @@
 <template>
   <div v-if="!grachio">Loading...</div>
   <div v-else>
-    <h1>Grachio Data</h1>
     <table class="pure-table pure-table-horizontal">
       <thead>
         <tr>

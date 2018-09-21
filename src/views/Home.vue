@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <h2>Rachio Sprinkler Mashup with DarkSky Weather Actuals</h2>
     <GrachioDisplay :grachio="grachio"/>
   </div>
 </template>
