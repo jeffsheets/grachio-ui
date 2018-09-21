@@ -1,0 +1,1 @@
+Weather icons used from http://adamwhitcroft.com/climacons/
