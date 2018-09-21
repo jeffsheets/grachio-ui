@@ -11,7 +11,7 @@
       </thead>
       <tbody>
         <tr v-for="row in grachio.rachioData" :key="row.date">
-          <td>{{row.prettyDate}}</td>
+          <td>{{new Date(row.date).toLocaleString()}}</td>
           <td>{{row.waterMinutes}}</td>
         </tr>
       </tbody>
