@@ -7,12 +7,22 @@
         <tr>
           <th>Date</th>
           <th>Water Minutes</th>
+          <th>High Feels Like</th>
+          <th>High Temp</th>
+          <th>Low Temp</th>
+          <th>Icon</th>
+          <th>Summary</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="row in grachio.rachioData" :key="row.date">
           <td>{{new Date(row.date).toLocaleString()}}</td>
           <td>{{row.waterMinutes}}</td>
+          <td>{{row.weather.apparentTemperatureHigh}}</td>
+          <td>{{row.weather.temperatureHigh}}</td>
+          <td>{{row.weather.temperatureLow}}</td>
+          <td>{{row.weather.icon}}</td>
+          <td>{{row.weather.summary}}</td>
         </tr>
       </tbody>
     </table>
