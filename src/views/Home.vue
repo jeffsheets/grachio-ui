@@ -1,17 +1,17 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <div>
-      {{grachio}}
-    </div>
+    <GrachioDisplay :grachio="grachio"/>
   </div>
 </template>
 
 <script>
 import axios from "axios";
+import GrachioDisplay from "../components/GrachioDisplay";
 
 export default {
   name: "home",
+  components: { GrachioDisplay },
   data() {
     return {
       grachio: null

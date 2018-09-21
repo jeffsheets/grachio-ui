@@ -1,12 +1,9 @@
 import { shallowMount } from "@vue/test-utils";
-import HelloWorld from "@/components/HelloWorld.vue";
+import GrachioDisplay from "@/components/GrachioDisplay.vue";
 
-describe("HelloWorld.vue", () => {
-  it("renders props.msg when passed", () => {
-    const msg = "new message";
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { msg }
-    });
-    expect(wrapper.text()).toMatch(msg);
+describe("GrachioDisplay.vue", () => {
+  it("renders Loading when there is no data", () => {
+    const wrapper = shallowMount(GrachioDisplay);
+    expect(wrapper.text()).toMatch("Loading...");
   });
 });

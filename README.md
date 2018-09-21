@@ -1,5 +1,7 @@
 # grachio-ui
 
+http://grachio.s3-website-us-east-1.amazonaws.com/
+
 ## Project setup
 ```
 yarn install
@@ -24,3 +26,6 @@ yarn lint
 ```
 yarn test:unit
 ```
+
+### Deploy to S3
+```yarn deploy```
