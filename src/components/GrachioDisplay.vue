@@ -9,7 +9,7 @@
           <th>High Feels Like</th>
           <th>High Temp</th>
           <th>Low Temp</th>
-          <th>Icon</th>
+          <th>&nbsp;</th>
           <th>Summary</th>
         </tr>
       </thead>
